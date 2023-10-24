@@ -1,0 +1,22 @@
+/* @media (max-width: 425px), (max-width: 600px) {
+  .main-cmt-calc {
+    width: 190px;
+  }
+  .fl-calc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 13px;
+    margin-top: 7px;
+    border-collapse: collapse;
+    /* border: 3px solid white; */
+    /* padding: 6px;
+  }
+  .close {
+	left: 89%;
+  }
+  .fl-calc > div {
+	padding: 10px;
+	width: 120%;
+  }
+} */ 

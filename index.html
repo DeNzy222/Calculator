@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="main.css">
+		<script src="main.js" defer></script>
+		<link rel="stylesheet" href="media.css">
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="side">
+
+		</div>
+		<div class="fl-calc-main">
+			<div class="main-cmt-calc" id="mn">
+				<div class="close" id="cl">
+					<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+				</div>
+				<div class="calculator">
+					<div class="back">
+						<input type="text" id="result" disabled>
+					</div>
+					<div class="fl-calc">
+						<div onclick="ClearResult()">C</div>
+						<div onclick="DeleteChar()">&larr;</div>
+						<div onclick="InsertChar('/')" class="operator">/</div>
+						<div onclick="InsertChar('*')" class="operator">*</div>
+						<div onclick="InsertChar('7')">7</div>
+						<div onclick="InsertChar('8')">8</div>
+						<div onclick="InsertChar('9')">9</div>
+						<div onclick="InsertChar('-')" class="operator">-</div>
+						<div onclick="InsertChar('4')">4</div>
+						<div onclick="InsertChar('5')">5</div>
+						<div onclick="InsertChar('6')">6</div>
+						<div onclick="InsertChar('+')" class="operator">+</div>
+						<div onclick="InsertChar('1')">1</div>
+						<div onclick="InsertChar('2')">2</div>
+						<div onclick="InsertChar('3')">3</div>
+						<div onclick="ResultCalc()" class="equal">=</div>
+						<div onclick="InsertChar('0')">0</div>
+						<div onclick="InsertChar('.')">.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
